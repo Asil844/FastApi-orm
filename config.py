@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     db_user: str
     db_pass: str
     db_name: str
+    database_url: str
 
 
     class Config:
